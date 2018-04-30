@@ -1,0 +1,138 @@
+ /* GENERAL */
+
+html, 
+body {
+    height: 100%;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1.05em;
+    width: 100%;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%
+}
+
+a:link {
+    text-decoration: none;
+    color: #58595a;
+}
+
+a:hover {
+    color: palevioletred;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+
+                  /* NAVBAR*/
+
+#nav-brand {
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    color: lightcyan;
+    padding: 0 0;
+}
+
+.navbar {
+    background-color: #ECC2C6;
+    opacity: 0.95;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);;
+}
+
+.nav-link {
+    color: darkslategray; 
+    font-size: 1.3rem;
+    font-family: 'Pacifico';
+}
+ 
+.nav-link:hover {
+    color: palevioletred;
+}
+
+
+.navbar-toggler-icon {
+    color: darkslategray;
+    font-size: 2rem;
+}
+
+#top-page {
+    margin: 80px;
+}
+ 
+
+
+/* SECTION */
+
+section {
+    padding: 30px 30px;
+}
+
+
+
+
+
+hr {
+    border : 0;
+    height: 2px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+    width: 50%; 
+}
+
+
+/* CAROUSEL */
+.carousel-inner {
+/*    max-height: 300px;*/
+}
+
+ /* FOOTER */
+
+.fa-round {
+    font-size: 1.6em;
+    width: 1.6em;
+    text-align: center;
+    line-height: 1.6em;
+    border-radius: 0.8em; /* or 50% width & line-height */
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-facebook {
+   background: #3B5998;
+   color: white;
+}
+
+.fa-twitter {
+   background: #55ACEE;
+   color: white;
+}
+
+.footer-hr {
+   margin-top: 5rem;
+   margin-bottom: 2rem;
+   background-color: black;
+   width: 100%
+}
+
+.footer-menu a {
+    color: hotpink;
+}
+.footer-menu h5 {
+    color: deeppink;
+}
+
+.footer-menu a:hover {
+    color: deeppink;
+}
+
+
+
+
